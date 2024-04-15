@@ -44,14 +44,14 @@ ul
     flex: 1 1 auto;
 }
 
-.header-burger__btn-cancel
+.burger__top-btn
 {
     padding: 0;
     border: 0;
     background-color: #ffffff;
 }
 
-.header-burger__list
+.burger__top-pictures
 {
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ ul
     margin-bottom: 46.27px;
 }
 
-.header-burger__img-group
+.burger__top-group-img
 {
     margin-left: 16.73px;
     margin-right: 78.27px;
@@ -97,7 +97,7 @@ ul
 {
     color: #7e7e82;
 }
-.main-burger__li--hover a
+.active a
 {
     color: #7e7e82;
 }
@@ -115,16 +115,17 @@ ul
     padding-left: 24px;
 }
 
-
-.main-burger__hightclass
+.hightclass::before
 {
+    content: "";
     width: 4px;
     height: 32px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #41f6d7;
     position: absolute;
-    top: 136px;
+    left: 0;
+    transform: translateY(-5px);
 }
 
 
