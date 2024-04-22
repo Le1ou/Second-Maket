@@ -49,14 +49,14 @@ ul
     margin-bottom: 46.27px;
 }
 
-.burger-top-btn
+.burger-top__btn
 {
     padding: 0;
     border: 0;
     background-color: #ffffff;
 }
 
-.burger-top-wrapper
+.burger-top__wrapper
 {
     display: flex;
     align-items: center;
